@@ -1,0 +1,16 @@
+{
+    "name": "user/blog_poo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Badr-Eddine-Slaoui",
+            "email": "slaoui.badr.eddine.sdv@gmail.com"
+        }
+    ],
+    "require": {}
+}
