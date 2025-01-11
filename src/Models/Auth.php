@@ -8,6 +8,11 @@ use Exception;
 
 class Auth{
     private $db;
+    private $name;
+    private $email;
+    private $pass;
+    private $confirmPass;
+    private $remember;
 
     public function __construct(){
         $this->db = new DataBase();
